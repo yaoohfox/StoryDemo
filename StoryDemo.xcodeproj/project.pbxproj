@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D47B587178BC862000D7FAC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D47B586178BC862000D7FAC /* test.jpg */; };
 		6D5B72811787120300DE7491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B72801787120300DE7491 /* UIKit.framework */; };
 		6D5B72831787120300DE7491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B72821787120300DE7491 /* Foundation.framework */; };
 		6D5B72851787120300DE7491 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B72841787120300DE7491 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D47B586178BC862000D7FAC /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = Images/test.jpg; sourceTree = "<group>"; };
 		6D5B727D1787120300DE7491 /* StoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5B72801787120300DE7491 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D5B72821787120300DE7491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D47B585178BC856000D7FAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6D47B586178BC862000D7FAC /* test.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		6D5B72741787120300DE7491 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		6D5B72861787120300DE7491 /* StoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6D47B585178BC856000D7FAC /* Images */,
 				6D5B728F1787120300DE7491 /* AppDelegate.h */,
 				6D5B72901787120300DE7491 /* AppDelegate.m */,
 				6D5B72981787120300DE7491 /* MainStoryboard.storyboard */,
@@ -168,6 +179,7 @@
 				6D5B72951787120300DE7491 /* Default@2x.png in Resources */,
 				6D5B72971787120300DE7491 /* Default-568h@2x.png in Resources */,
 				6D5B729A1787120300DE7491 /* MainStoryboard.storyboard in Resources */,
+				6D47B587178BC862000D7FAC /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				6D5B72A21787120300DE7491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
