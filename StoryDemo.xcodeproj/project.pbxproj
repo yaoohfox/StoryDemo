@@ -18,6 +18,7 @@
 		6D5B72971787120300DE7491 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B72961787120300DE7491 /* Default-568h@2x.png */; };
 		6D5B729A1787120300DE7491 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B72981787120300DE7491 /* MainStoryboard.storyboard */; };
 		6D5B729D1787120300DE7491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B729C1787120300DE7491 /* ViewController.m */; };
+		6D5B72A51787146100DE7491 /* TopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B72A41787146100DE7491 /* TopicTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6D5B72991787120300DE7491 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6D5B729B1787120300DE7491 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D5B729C1787120300DE7491 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D5B72A31787146100DE7491 /* TopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewController.h; sourceTree = "<group>"; };
+		6D5B72A41787146100DE7491 /* TopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				6D5B72981787120300DE7491 /* MainStoryboard.storyboard */,
 				6D5B729B1787120300DE7491 /* ViewController.h */,
 				6D5B729C1787120300DE7491 /* ViewController.m */,
+				6D5B72A31787146100DE7491 /* TopicTableViewController.h */,
+				6D5B72A41787146100DE7491 /* TopicTableViewController.m */,
 				6D5B72871787120300DE7491 /* Supporting Files */,
 			);
 			path = StoryDemo;
@@ -176,6 +181,7 @@
 				6D5B728D1787120300DE7491 /* main.m in Sources */,
 				6D5B72911787120300DE7491 /* AppDelegate.m in Sources */,
 				6D5B729D1787120300DE7491 /* ViewController.m in Sources */,
+				6D5B72A51787146100DE7491 /* TopicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
